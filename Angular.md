@@ -1,7 +1,7 @@
 # Angular
 
 ## Setup
-**Install Angular**
+**Install Angular**\n
 npm install -g @angular/cli@latest
 
 **Create Project**
