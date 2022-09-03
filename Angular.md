@@ -1,7 +1,7 @@
 # Angular
 
 ## Setup
-**Install Angular**
+**Install Angular**  
 `npm install -g @angular/cli@latest`
 
 **Create Project**  
@@ -10,10 +10,10 @@
 **Install Bootstrap**  
 `npm install --save bootstrap@VERSON`
 
-**Run server** 
+**Run server**  
 `ng serve`
 
 ## Useful Commands
-**Add Component**
-`ng generate component COMPONENT-NAME`
+**Add Component**  
+`ng generate component COMPONENT-NAME`  
 `ng g c COMPONENT-NAME`
