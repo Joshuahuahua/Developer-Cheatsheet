@@ -4,13 +4,13 @@
 **Install Angular**
 `npm install -g @angular/cli@latest`
 
-**Create Project**
+**Create Project**  
 `ng new name-of-app --no-strict`
 
-**Install Bootstrap**
+**Install Bootstrap**  
 `npm install --save bootstrap@VERSON`
 
-**Run server**
+**Run server** 
 `ng serve`
 
 ## Useful Commands
