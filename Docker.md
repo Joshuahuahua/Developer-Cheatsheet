@@ -16,7 +16,7 @@
 
 ## Deployment  
 **Build Container Image**  
-*`-t` applies a tag, so image can be referenced*  
+`-t` applies a tag, so image can be referenced  
 `.` refers to the Dockerfile path (run at project root)  
 ``docker build -t IMAGE-NAME .``  
 **Run Container**  
