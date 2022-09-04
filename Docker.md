@@ -18,7 +18,7 @@
 **Run Application (Python)**
 `CMD ["python", "./FILENAME.py"]`  
 
-## Deploy
+## Deployment
 **Build Container Image**
 "-t" applies a tag, so image can be referenced.
 "." refers to the Dockerfile path (run at project root)
@@ -28,3 +28,10 @@
 `docker run IMAGE-NAME`  
 Use "-e" to pass through environment variables ("TERM" has been used as an example)
 `docker run -e TERM=xterm IMAGE-NAME`  
+
+## Useful Commands
+**Run python virtual env**
+`venv/Scripts/Activate.ps1`  
+
+**Write current pip env packages to file**
+`pip freeze > requirements.txt``  
