@@ -21,8 +21,10 @@
 ``docker build -t IMAGE-NAME .``  
 **Run Container**  
 `docker run IMAGE-NAME`  
-Use "-e" to pass through environment variables ("TERM" has been used as an example)  
+`-e` is used to pass through environment variables ("TERM" has been used as an example)  
 `docker run -e TERM=xterm IMAGE-NAME`  
+`-v` mounts a volume to a directory on the host machine  
+`docker run -v VOLUME-NAME:/PATH-TO-DIR getting-started`  
 
 ## Useful Commands  
 **List Containers**  
@@ -31,8 +33,11 @@ Use "-e" to pass through environment variables ("TERM" has been used as an examp
 `docker stop CONTAINER-ID`  
 **Remove Container**
 `docker rm CONTAINER-ID`  
-`-f` can be used to force remove a container (even while it is running)
+`-f` can be used to force remove a container (even while it is running)  
 `docker rm -f CONTAINER-ID`  
+
+**Create Named Volume**  
+`docker volume create FILENAME`  
 
 **Run python virtual env**  
 `venv/Scripts/Activate.ps1`  
