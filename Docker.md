@@ -39,6 +39,8 @@
 **Create Named Volume**  
 `docker volume create FILENAME`  
 
+**Create python virtual env**  
+`python -m venv venv`  
 **Run python virtual env**  
 `venv/Scripts/Activate.ps1`  
 **Write current pip env packages to file**  
