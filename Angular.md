@@ -17,3 +17,7 @@
 **Add Component**  
 `ng generate component COMPONENT-NAME`  
 `ng g c COMPONENT-NAME`  
+
+## Code Snippets  
+**If statement**  
+`*ngIf="METHOD"`  
