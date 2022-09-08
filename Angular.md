@@ -17,6 +17,8 @@
 **Add Component**  
 `ng generate component COMPONENT-NAME`  
 `ng g c COMPONENT-NAME`  
+`--spec false` prevents test file from being created.  
+`ng g c COMPONENT-NAME --spec false`  
 
 ## Code Snippets  
 **If statement**  
