@@ -22,7 +22,7 @@ https://material.angular.io/components/categories
 `ng generate component COMPONENT-NAME`  
 `ng g c COMPONENT-NAME`  
 `--spec false` prevents test file from being created.  
-`ng g c COMPONENT-NAME --spec false`  
+`ng g c COMPONENT-NAME --skip-tests`  
 
 ## Code Snippets  
 **If statement**  
