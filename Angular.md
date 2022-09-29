@@ -9,7 +9,7 @@ https://material.angular.io/components/categories
 `npm install -g @angular/cli@latest`  
 
 **Create Project**  
-`ng new name-of-app --no-strict`  
+`ng new name-of-app`  
 
 **Install Bootstrap**  
 `npm install --save bootstrap@VERSON`  
