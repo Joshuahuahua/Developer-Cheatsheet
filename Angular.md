@@ -11,7 +11,10 @@ https://material.angular.io/components/categories
 **Create Project**  
 `ng new name-of-app`  
 
-**Install Bootstrap**  
+**Install Materials**  
+`ng add @angular/material`  
+
+**Install Bootstrap (OPTIONAL)**  
 `npm install --save bootstrap@VERSON`  
 
 **Run server**  
