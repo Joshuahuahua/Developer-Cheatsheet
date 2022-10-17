@@ -10,5 +10,7 @@
 `python manage.py runserver`  
 
 ## Useful Commands  
+**Create App**  
+`python manage.py startapp polls`  
 
 ## Code Snippets  
