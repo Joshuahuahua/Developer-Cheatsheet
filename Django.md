@@ -13,4 +13,10 @@
 **Create App**  
 `python manage.py startapp name-of-app`  
 
+**UrlPatterns**  
+`urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', main_views.home, name='home'),
+]`
+
 ## Code Snippets  
