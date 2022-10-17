@@ -12,6 +12,8 @@
 ## Useful Commands  
 **Create App**  
 `python manage.py startapp name-of-app`  
+Add to settings.py
+`'name-of-app.apps.name-of-appConfig'`
 
 **UrlPatterns**  
 ```
