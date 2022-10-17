@@ -14,9 +14,12 @@
 `python manage.py startapp name-of-app`  
 
 **UrlPatterns**  
-```urlpatterns = [
+```
+from App import views as app_views
+urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', main_views.home, name='home'),
-]```
+    path('', app.view_name, name='name'),
+]
+```
 
 ## Code Snippets  
