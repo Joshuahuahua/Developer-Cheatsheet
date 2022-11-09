@@ -6,9 +6,10 @@ https://beta.reactjs.org/
 
 **Create Project**  
 `npx create-next-app`  
+`npm i --save-dev sass
 
 **Run server**  
-`ng serve`  
+`npm run dev`  
 
 ## Useful Commands
 **Add Component**  
