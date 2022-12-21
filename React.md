@@ -6,7 +6,7 @@ https://beta.reactjs.org/
 
 **Create Project**  
 `npx create-next-app`  
-`npm i --save-dev sass
+`npm i --save-dev sass`  
 
 **Run server**  
 `npm run dev`  
